@@ -260,6 +260,11 @@ function getMembers(on_call, offset, limit) {
   return JSON.parse(response.getContentText());
 }
 
+/* Returns true if the person is operational */
+function isOperational(person) {
+  return person.status.id == 1
+}
+
 /* Repeatedly invokes getMembers() to handle paging
  * since D4H limits to 25 members per call
  */
@@ -278,7 +283,7 @@ function getRoster(on_off) {
       e.name = e.name.trim();
       return e;
     });
-    
+
     // building the overall list of people
     all_people = all_people.concat(people);
     offset += limit;
@@ -300,7 +305,7 @@ function getAllCall() {
     return person
   });
     
-  var everyone = on_call.concat(off_call)
+  var everyone = on_call.concat(off_call).filter(isOperational);
   
   everyone = everyone.sort(function (left, right) {
     return left.name.localeCompare(right.name);
