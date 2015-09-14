@@ -1,10 +1,10 @@
 # Duty Officer Add-on #
 
 This project creates a Google Sheets add-on that interfaces with [Decisions for
-Heroes (D4H)](https://help.github.com/articles/using-pull-requests/) to create
-a call list with basic contact information.  There are some additional features
-that are specific to the [San Mateo County Search and Rescue
-(SMCSAR)](http://www.sanmateosar.org) callout process.
+Heroes (D4H)](http://d4h.org/) to create a call list with basic contact
+information.  There are some additional features that are specific to the [San
+Mateo County Search and Rescue (SMCSAR)](http://www.sanmateosar.org) callout
+process.
 
 ## Usage ##
 
