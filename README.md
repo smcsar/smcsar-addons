@@ -24,10 +24,11 @@ This project uses the workflow outlined [here](https://github.com/danthareja/nod
 2. Modify code
 3. `gapps upload <target>` (currently, the only specified target is `production`)
 4. Switch to the project within Google Chrome and continue testing/deploying
-   from there.  There are two ways to "test" the code: 1) Deploy the add-on, or 2)
-   *(Preferred)* Comment out the `setupCheckResponseTrigger()` and use the
-   "Test Add-on" option.  However, this will disable the auto-highlighting
-   related to those responding.
+   from there.  There are two ways to "test" the code:
+   1. Deploy the add-on
+   2. *(Preferred)* Comment out the `setupCheckResponseTrigger()` and use the
+      "Test Add-on" option.  However, this will disable the auto-highlighting related
+      to those responding.
 
 Copyright 2015, Andrew Nguyen
 
