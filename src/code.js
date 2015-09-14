@@ -1,5 +1,3 @@
-var d4h_token = getToken(); // defined below
-
 var D4H_STRING = "D4H";
 var YNL_STRING = "Y / N / L";
 
@@ -10,7 +8,6 @@ var BRIGHT_GREEN = "#48FF05";
  */
 
 var TOKEN_DIALOG_TITLE = 'Set D4H API Token';
-var DIALOG_TITLE = 'Example Dialog';
 var SIDEBAR_TITLE = 'Example Sidebar';
 
 function test() {
@@ -254,7 +251,7 @@ function getMembers(on_call, offset, limit) {
     + 'access_token=%s'
     + '&on_call=%s'
     + '&offset=%s'
-    + '&limit=%s', d4h_token, on_call, offset, limit);
+    + '&limit=%s', getToken(), on_call, offset, limit);
   
   var response = UrlFetchApp.fetch(url);
   //Logger.log(response);
