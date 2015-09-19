@@ -89,7 +89,7 @@ push files to a Google Developers Console Project.
    4.  Click "Spreadsheets" and select the sheet you created earlier and click "Select"
    5.  Click "Save"
    6.  Select your "Saved Test" (radio button) and click "Test"
-   7.  Go to "Add-ons" -> <Project Name> -> "Set D4H Token" (If this is the first time you're running the add-on, you will need to authorize the add-on.)
+   7.  Go to "Add-ons" -> &lt;Project Name&gt; -> "Set D4H Token" (If this is the first time you're running the add-on, you will need to authorize the add-on.)
    8.  In a new tab, go to https://smcsar.d4h.org and click on the setup gear at the top right corner
    9.  Click "Generate API Access Key"
    10. Copy "Generated Token"
