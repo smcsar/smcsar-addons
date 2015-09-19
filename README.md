@@ -117,6 +117,12 @@ push files to a Google Developers Console Project.
 - Don't ever make changes within the web-based Apps Script IDE; otherwise, the
   version on the server and in this project will conflict
 
+### Release Procedure ###
+
+Detailed instructions TBD
+
+- Increment version number when deploying the add-on (via web interface)
+
 ### Contributing ###
 
 If you'd like to contribute, please reach out!  We're happy to review pull requests.
