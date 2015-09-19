@@ -107,6 +107,9 @@ push files to a Google Developers Console Project.
 
 ### Gotchas / Best Practices ###
 
+- Javascript files use the *.js* extension in order to enable proper file
+  handling by editors/IDE's.  This will be automatically changed to *.gs* when
+  `gapps deploy` is called
 - While files may be organized in directories within this project, Google Apps
   Script will flatten out the directory structure on the server.  As a result,
   you must ensure that all filenames are unique throughout the entire project -
