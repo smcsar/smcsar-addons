@@ -123,11 +123,11 @@ function phoneFormat(person, phonetype) {
   if (phonetype in person) {
     phone = person[phonetype];
     if (phone.length == 10) {
-      return "(" + phone.slice(0,3) + ") " + phone.slice(2,5) + "-" + phone.slice(5,9);
+      return "(" + phone.slice(0,3) + ") " + phone.slice(3,6) + "-" + phone.slice(6,10);
     }
     else if (phone.length == 11) {
       // currently removes the first character which is a '1'
-      return "(" + phone.slice(1,4) + ") " + phone.slice(3,6) + "-" + phone.slice(6,10);
+      return "(" + phone.slice(1,4) + ") " + phone.slice(4,7) + "-" + phone.slice(7,11);
     }
     return person[phonetype];
   }
