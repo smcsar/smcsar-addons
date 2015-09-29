@@ -77,7 +77,7 @@ push files to a Google Developers Console Project.
 
 ### Setup a New Fork ###
 
-If you have already followed these instructions but would like to start work in
+If you have already followed this readme but would like to start work in
 a new directory or on a new fork, please follow these steps:
 
 1.  Clone the fork/repository - `git clone git@github.com:<your username>/duty-officer-addon.git`
