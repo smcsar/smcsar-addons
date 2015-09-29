@@ -58,7 +58,7 @@ push files to a Google Developers Console Project.
 1.  Clone this project - `git clone git@github.com:smcsar/duty-officer-addon.git`
 2.  `cd` into the above project
 3.  Run `gapps init -s src` to initialize the DO project
-4.  Open http://console.developers.google.com in a new tab and select your project that you created
+4.  Open http://console.developers.google.com in a new tab and select your Developers Console Project that you previously created
 5.  Copy the `Project Number`
 6.  Open a web browser and goto https://drive.google.com
 7.  Click "New" -> "More" -> "Google Apps Script" to create a new Apps Script project
@@ -74,6 +74,24 @@ push files to a Google Developers Console Project.
 17. Run `gapps deply dev` to push files to Google's environment
 18. If you don't see "Great success!", go to a corner and cry
 19. Go back to your web browser with your Google Drive project and refresh - you should see `code.gs` and several other HTML files
+
+### Setup a New Fork ###
+
+If you have already followed these instructions but would like to start work in
+a new directory or on a new fork, please follow these steps:
+
+1.  Clone the fork/repository - `git clone git@github.com:<your username>/duty-officer-addon.git`
+2.  `cd` into the above project
+3.  Run `gapps init -s src` to initialize the DO project
+4.  Open http://console.developers.google.com in a new tab and select your Developers Console Project that you previously created
+5.  Copy the `Project Number`
+6.  Open a web browser and goto https://drive.google.com
+7.  Select your Apps Script project that you previously created (blue icon with white arrow)
+8.  Copy your Project ID from the address bar - your project id is the random string after `/d/` and before `/edit`
+9.  Go to your command-line window and run `gapps add dev <project id>`.  This will add a deployment target called "dev"
+10. Run `gapps deply dev` to push files to Google's environment
+11. If you don't see "Great success!", go to a corner and cry
+12. Go back to your web browser with your Google Drive project and refresh - you should see `code.gs` and several other HTML files
 
 ### Testing Code the First Time ###
 
