@@ -55,7 +55,9 @@ push files to a Google Developers Console Project.
 
 ### Setup the Duty Officer Add-on Project ###
 
-1.  Clone this project - `git clone git@github.com:smcsar/duty-officer-addon.git`
+1.  Clone the fork/repository
+    1. Using SSH (Mac/Linux): `git clone git@github.com:<username>/duty-officer-addon.git`
+    2. Using HTTPS (Windows/Mac/Linux): `git clone https://github.com/<username>/duty-officer-addon.git`
 2.  `cd` into the above project
 3.  Run `gapps init -s src` to initialize the DO project
 4.  Open http://console.developers.google.com in a new tab and select your Developers Console Project that you previously created
@@ -80,7 +82,9 @@ push files to a Google Developers Console Project.
 If you have already followed this readme but would like to start work in
 a new directory or on a new fork, please follow these steps:
 
-1.  Clone the fork/repository - `git clone git@github.com:<your username>/duty-officer-addon.git`
+1.  Clone the fork/repository
+    1. Using SSH (Mac/Linux): `git clone git@github.com:<your username>/duty-officer-addon.git`
+    2. Using HTTPS (Windows/Mac/Linux): `git clone https://github.com/<your username>/duty-officer-addon.git`
 2.  `cd` into the above project
 3.  Run `gapps init -s src` to initialize the DO project
 4.  Open a web browser and goto https://drive.google.com
