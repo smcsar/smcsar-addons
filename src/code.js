@@ -202,9 +202,10 @@ function populateAllCall() {
     "Work Phone"
   ]);
   
-  // bolds the first two rows
+  // bold and freeze the first two rows
   sheet.getRange("A1:Z2").setFontWeight("bold");
-
+  sheet.setFrozenRows(2);
+  
   var currentRow = 3; // ignore header and count row
   
   // cycles through everyone and appends a new row for each
