@@ -1,12 +1,12 @@
-# Duty Officer Add-on #
+# SMCSAR Addons#
 
-This project creates a Google Sheets add-on that interfaces with [Decisions for
-Heroes (D4H)](http://d4h.org/) to create a call list with basic contact
-information.  There are some additional features that are specific to the [San
-Mateo County Search and Rescue (SMCSAR)](http://www.sanmateosar.org) callout
-process.
+This project is a "fork" from the duty-officer-addon and is intended to capture
+several sub-projects that facilitate administrative functions for [San Mateo
+County Search and Rescue (SMCSAR)](http://www.sanmateosar.org).
 
 ## Usage ##
+
+***Copied from original project - TBD***
 
 1. Add the DO Management add-on to your account
 2. Create a new Google Sheet
@@ -14,11 +14,15 @@ process.
 
 ## Development ##
 
+***Copied from original project - TBD***
+
 This project uses the workflow outlined [here](https://github.com/danthareja/node-google-apps-script/pull/15), using [our fork of the node-google-apps-script](https://github.com/smcsar/node-google-apps-script) project.
 
 Specific steps are outlined below.
 
 ### Install gapps utility ###
+
+***Copied from original project - TBD***
 
 1. Make sure you have node.js installed (at least v0.12.x) - https://nodejs.org/en/download/
 2. `git clone https://github.com/smcsar/node-google-apps-script.git`
@@ -27,10 +31,14 @@ Specific steps are outlined below.
 
 ### Add Google Apps Script to Your Google Account ###
 
+***Copied from original project - TBD***
+
 1. Click "New" -> "More" -> "Connect more apps" and search for "Apps Script"
 2. Add "Google Apps Script"
 
 ### Setup your Developers Console Project ###
+
+***Copied from original project - TBD***
 
 You only need to do this the first time you setup your Developers Console
 Project.  This will create a file in your home directory that allows you to
@@ -55,6 +63,7 @@ push files to a Google Developers Console Project.
 
 ### Setup the Duty Officer Add-on Project ###
 
+***Copied from original project - TBD***
 1.  Clone the fork/repository
     1. Using SSH (Mac/Linux): `git clone git@github.com:<username>/duty-officer-addon.git`
     2. Using HTTPS (Windows/Mac/Linux): `git clone https://github.com/<username>/duty-officer-addon.git`
@@ -97,6 +106,8 @@ a new directory or on a new fork, please follow these steps:
 
 ### Testing Code the First Time ###
 
+***Copied from original project - TBD***
+
 ***All code modifications should be done locally on your computer and not in the Google Drive web interface***
 
 1. Comment out the `setupCheckResponseTrigger()`. This will disable the auto-highlighting related
@@ -117,6 +128,8 @@ a new directory or on a new fork, please follow these steps:
    12. To test, go to "Add-ons" -> <Project Name> -> "Populate Call Sheet"
 
 ### Basic workflow: ###
+
+***Copied from original project - TBD***
 
 1. Open your project in Google Drive via a web browser
 2. Go to "Publish" -> "Test as Add-on" and select your previously saved test and click "Test"
@@ -147,6 +160,6 @@ Detailed instructions TBD
 
 If you'd like to contribute, please reach out!  We're happy to review pull requests.
 
-Copyright 2015, Andrew Nguyen
+Copyright 2016, Andrew Nguyen
 
 Distributed under the GNU Affero General Public License Version 3.
